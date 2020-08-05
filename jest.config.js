@@ -1,4 +1,17 @@
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
+	projects: [
+		{
+			displayName: 'node',
+			preset: 'ts-jest',
+			testEnvironment: 'node',
+		},
+		{
+			displayName: 'pytest',
+			moduleFileExtensions: ['py'],
+			runner: 'jest-pytest',
+			testPathIgnorePatterns: [],
+			testMatch: ['<rootDir>/pytest/test_*.py']
+		  
+		}
+	]
 };

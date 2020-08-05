@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "got": "^11.5.1",
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "jest-pytest": "^0.7.0"
   }
 }

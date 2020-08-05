@@ -1,0 +1,23 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/got": "^9.6.11",
+    "@types/jest": "^26.0.7",
+    "ts-jest": "^26.1.4",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "got": "^11.5.1",
+    "jest": "^26.1.0"
+  }
+}

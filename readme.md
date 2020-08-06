@@ -18,7 +18,14 @@ A little example integrating jest typescript tests and python pytest tests.
 see https://jest-community.github.io/jest-pytest/
 
 
+### Python 3 note:
+
+I got it to work with python 3 by commenting out the `pytest_logwarning`
+method in the `pytest_jest/plugin.py` file.
+
+https://github.com/jest-community/jest-pytest/issues/30
+
+
 @todo:
 - setup with pipenv
-- python 3 ?
 - try to add jest go runner
